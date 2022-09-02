@@ -335,6 +335,19 @@ body{
     text-align: center;
 }
 
+.footer__icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer__container-icons {
+    margin: 5PX;
+    font-size: 30px;
+    color: #fff;
+}
+
 /* Responsive design */
 
 @media screen and (max-width: 800px){
@@ -483,5 +496,9 @@ body{
         margin: 0;
         margin-bottom: 20px;
     }
+    .footer__container-icons{
+        margin: auto;
+    }
+
 
 }
